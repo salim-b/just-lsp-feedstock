@@ -1,5 +1,5 @@
 context:
-  version: "0.4.5"
+  version: "0.4.6"
 
 package:
   name: just-lsp
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/terror/just-lsp/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 1382005fc761f9522719dff06226d7841614995b497cc0f21dfcb2664958003b
+  sha256: ad6988813136b6c707c599ed7bcec5b4d52568deca5627cf38f51b4a9271fd6e
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_LTO: fat
