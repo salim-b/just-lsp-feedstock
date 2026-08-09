@@ -1,5 +1,5 @@
 context:
-  version: "0.6.1"
+  version: "0.6.2"
 
 package:
   name: just-lsp
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/terror/just-lsp/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 70fc2fd7c1a9c7dce750a7afcd03fd0c830dc922722cb0caa4b71e895b2c7df4
+  sha256: 1ee32a4e4143ffcf7dd8a58f3a01162de146023a54d43346936a60980cbe7d4a
 
 build:
   number: 0
